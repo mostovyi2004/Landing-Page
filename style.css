@@ -1,8 +1,115 @@
-
-h1{
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
     color: aliceblue;
 }
+a:hover{
+    color: tomato;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-header{
+    background-color: #241f37;
+}
+.bg-header-down{
+    background-color: #241f37;
+}
+.header{
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.list{
+    display: flex; /* FLEX FLEX FLEX FLEX FLEX*/
+    gap: 20px;
+}
+.header-down{
+    margin: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.title-txt{
+    box-sizing: border-box;
+    max-width: 300px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.sign-up{
+    margin-top: 12px;
+    background-color: rgb(232, 215, 38);
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    width: 128px;
+    height: 36px;
+}
+.sign-up:hover{
+    background-color: rgb(232, 109, 38);
+}
+.sign-up:active{
+    background-color: rgb(255, 160, 105);
+}
 
-body{
-    background-color: pink;
+.title-img img{
+    border-radius: 24px;
+    border: rgba(232, 216, 38, 0.93) solid 4px;    
+}
+
+/* ------------------------------------------------------ */
+
+.information-box img{
+    border-radius: 24px;
+    border: #241f37e3 solid 4px;    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-box-container{
+    gap: 48px;
+    display: flex;
+}
+
+.information-txt{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.information-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-in{
+    font-weight: 712px;
+    margin-top: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 150px;
 }
